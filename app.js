@@ -18,3 +18,7 @@ inputBox.addEventListener('click', (event) => {
 textBox.addEventListener('click', (event) => {
     textBox.classList.add('shadow-pop-bl');
 });
+
+subButton.addEventListener('click', (event) => {
+    location.href='./form-submitted.html';
+})

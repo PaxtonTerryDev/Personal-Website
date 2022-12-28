@@ -222,6 +222,10 @@ body {
     background-color: var(--accent-yellow);
     transition: 1s;
 }
+.submit-anchor {
+  text-decoration: none;
+  font-family: Poppins, sans-serif;
+}
 
 /* FOOTER */
 .footer {
@@ -245,6 +249,24 @@ footer p {
 }
 footer p:last-child {
     padding-bottom: 2rem;
+}
+
+
+/* FORM SUBMITTED PAGE */
+.submitted-container {
+  background-color: var(--primary);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    border: none;
+    width: 100%;
+}
+.submitted-container-text {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+
 }
 
 
